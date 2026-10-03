@@ -1,0 +1,8 @@
+{
+  "single_request_ms": {
+    "p50": 9.87,
+    "p95": 13.45
+  },
+  "batch64_wafers_per_second": 315.1,
+  "note": "End-to-end incl. JSON parsing and validation, CPU, 2 PyTorch threads, in-process client."
+}
