@@ -1,6 +1,6 @@
 # Wafer Defect Classifier API
 
-Production-style REST service for the [wafer map defect classifier](../wafer-defect-classifier) (test macro-F1 0.991): **FastAPI + Docker + automated tests + CI**. It turns a trained notebook model into something a fab's inspection system could call.
+Production-style REST service for the [wafer map defect classifier](https://github.com/abdulkarimali0001/wafer-defect-classifier) (test macro-F1 0.991): **FastAPI + Docker + automated tests + CI**. It turns a trained notebook model into something a fab's inspection system could call.
 
 > 웨이퍼 맵 불량 분류 모델을 FastAPI 기반 REST API로 배포한 프로젝트입니다. 입력 검증, 배치 추론, 자동화 테스트(pytest 10개), Docker 이미지, GitHub Actions CI를 갖췄으며, 단일 요청 지연시간은 중앙값 약 10ms입니다.
 
@@ -82,5 +82,5 @@ Dockerfile               CPU-only serving image
 
 ## Next steps
 
-- Serve the quantized ONNX model from [wafer-model-optimization](../wafer-model-optimization) for lower latency.
+- Serve the quantized ONNX model from [wafer-model-optimization](https://github.com/abdulkarimali0001/wafer-model-optimization) for lower latency.
 - Add request logging and Prometheus metrics for monitoring.
